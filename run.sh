@@ -36,7 +36,7 @@ echo "supplied vhost name: $parameterV"
 ##############
 
 # replace vhost in the template
-sed "s/THE_NAME_OF_VHOST/${parameterV}/g" rabbit-config-template.json > rabbit-config.json
+sed "s/\"vhost\":.*,/\"vhost\": \"${parameterV}\",/g" rabbit-config-template.json > rabbit-config.json
 sed "s/THE_NAME_OF_VHOST/${parameterV}/g" vhost-template.env > vhost.env
 
 # boot up the RabbitMQ instance
