@@ -1,0 +1,992 @@
+{
+  "queues": [
+    {
+      "name": "guest.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "crudcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "admin.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "contractcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "aggregatedtnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "atomictnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "networkmodeler.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "conductortopologynode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "terminalasset.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "worldroot.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "gnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "supervisor.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "supervisorcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "guestmic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "guest.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "crudcoordinatormic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "crudcoordinator.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "crudcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "adminmic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "admin.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "admin.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "contractcoordinatormic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "contractcoordinator.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "contractcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "aggregatedtnodemic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "aggregatedtnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "atomictnodemic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "atomictnode.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "atomictnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "networkmodelermic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "networkmodeler.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "networkmodeler.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "conductortopologynodemic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "conductortopologynode.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "conductortopologynode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "terminalassetmic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "terminalasset.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "terminalasset.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "worldrootmic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "worldroot.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "worldroot.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "gnodemic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "gnode.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "gnode.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "supervisormic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "supervisor.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "supervisor.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "supervisorcoordinatormic",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "supervisorcoordinator.general",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    },
+    {
+      "name": "supervisorcoordinator.all",
+      "vhost": "THE_NAME_OF_VHOST",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": true,
+      "arguments": {}
+    }
+  ],
+  "bindings": [
+    {
+      "source": "adminmic",
+      "destination": "atomictnode.general",
+      "routing_key": "atomictnode.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "conductortopologynode.general",
+      "routing_key": "conductortopologynode.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "contractcoordinator.general",
+      "routing_key": "contractcoordinator.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "gnode.general",
+      "routing_key": "gnode.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "networkmodeler.general",
+      "routing_key": "networkmodeler.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "supervisor.general",
+      "routing_key": "supervisor.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "supervisorcoordinator.general",
+      "routing_key": "supervisorcoordinator.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "terminalasset.general",
+      "routing_key": "terminalasset.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "adminmic",
+      "destination": "worldroot.general",
+      "routing_key": "worldroot.general.admin.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "aggregatedtnodemic",
+      "destination": "atomictnode.general",
+      "routing_key": "atomictnode.general.aggregatedtnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "aggregatedtnodemic",
+      "destination": "gnode.general",
+      "routing_key": "gnode.general.aggregatedtnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnodemic",
+      "destination": "admin.general",
+      "routing_key": "admin.general.atomictnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnodemic",
+      "destination": "gnode.general",
+      "routing_key": "gnode.general.atomictnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnodemic",
+      "destination": "terminalasset.general",
+      "routing_key": "terminalasset.general.atomictnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "conductortopologynodemic",
+      "destination": "admin.general",
+      "routing_key": "admin.general.conductortopologynode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "conductortopologynodemic",
+      "destination": "networkmodeler.general",
+      "routing_key": "networkmodeler.general.conductortopologynode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "contractcoordinatormic",
+      "destination": "atomictnode.general",
+      "routing_key": "atomictnode.general.contractcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "crudcoordinatormic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.crudcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnodemic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.gnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnodemic",
+      "destination": "networkmodeler.general",
+      "routing_key": "networkmodeler.general.gnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnodemic",
+      "destination": "supervisorcoordinator.general",
+      "routing_key": "supervisorcoordinator.general.gnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnodemic",
+      "destination": "worldroot.general",
+      "routing_key": "worldroot.general.gnode.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "guestmic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.guest.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "admin.general",
+      "routing_key": "admin.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "conductortopologynode.general",
+      "routing_key": "conductortopologynode.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "supervisorcoordinator.general",
+      "routing_key": "supervisorcoordinator.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "terminalasset.general",
+      "routing_key": "terminalasset.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodelermic",
+      "destination": "worldroot.general",
+      "routing_key": "worldroot.general.networkmodeler.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinatormic",
+      "destination": "admin.general",
+      "routing_key": "admin.general.supervisorcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinatormic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.supervisorcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinatormic",
+      "destination": "gnode.general",
+      "routing_key": "gnode.general.supervisorcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinatormic",
+      "destination": "networkmodeler.general",
+      "routing_key": "networkmodeler.general.supervisorcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinatormic",
+      "destination": "supervisor.general",
+      "routing_key": "supervisor.general.supervisorcoordinator.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisormic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.supervisor.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisormic",
+      "destination": "supervisorcoordinator.general",
+      "routing_key": "supervisorcoordinator.general.supervisor.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalassetmic",
+      "destination": "admin.general",
+      "routing_key": "admin.general.terminalasset.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalassetmic",
+      "destination": "atomictnode.general",
+      "routing_key": "atomictnode.general.terminalasset.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalassetmic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.terminalasset.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalassetmic",
+      "destination": "networkmodeler.general",
+      "routing_key": "networkmodeler.general.terminalasset.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalassetmic",
+      "destination": "supervisor.general",
+      "routing_key": "supervisor.general.terminalasset.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "worldrootmic",
+      "destination": "crudcoordinator.general",
+      "routing_key": "crudcoordinator.general.worldroot.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "worldrootmic",
+      "destination": "gnode.general",
+      "routing_key": "gnode.general.worldroot.#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "admin.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "admin.general",
+      "destination": "admin.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "aggregatedtnode.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnode.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnode.general",
+      "destination": "atomictnode.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "conductortopologynode.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "conductortopologynode.general",
+      "destination": "conductortopologynode.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "contractcoordinator.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "contractcoordinator.general",
+      "destination": "contractcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "crudcoordinator.general",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnode.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "gnode.general",
+      "destination": "gnode.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "guest.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodeler.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodeler.general",
+      "destination": "networkmodeler.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisor.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisor.general",
+      "destination": "supervisor.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinator.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinator.general",
+      "destination": "supervisorcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalasset.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "terminalasset.general",
+      "destination": "terminalasset.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "worldroot.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "worldroot.general",
+      "destination": "worldroot.all",
+      "routing_key": "#",
+      "destination_type": "exchange",
+      "arguments": {}
+    },
+    {
+      "source": "admin.all",
+      "destination": "admin.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "aggregatedtnode.all",
+      "destination": "aggregatedtnode.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "atomictnode.all",
+      "destination": "atomictnode.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "conductortopologynode.all",
+      "destination": "conductortopologynode.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "contractcoordinator.all",
+      "destination": "contractcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "crudcoordinator.all",
+      "destination": "crudcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "gnode.all",
+      "destination": "gnode.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "guest.all",
+      "destination": "guest.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "networkmodeler.all",
+      "destination": "networkmodeler.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "supervisor.all",
+      "destination": "supervisor.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "supervisorcoordinator.all",
+      "destination": "supervisorcoordinator.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "terminalasset.all",
+      "destination": "terminalasset.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    },
+    {
+      "source": "worldroot.all",
+      "destination": "worldroot.all",
+      "routing_key": "#",
+      "destination_type": "queue",
+      "arguments": {}
+    }
+  ]
+}

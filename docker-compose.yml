@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  rabbitmq:
+    container_name: my_awesome_rabbit
+    image: "bitnami/rabbitmq:3.8.1"
+    ports:
+      - 4369:4369
+      - 5672:5672
+      - 15672:15672
+      - 25672:25672
+    env_file: vhost.env
+    environment:
+      - RABBITMQ_USERNAME=user
+      - RABBITMQ_PASSWORD=pass
+      - RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS=-rabbitmq_management load_definitions "/tmp/rabbit.definitions.json"
+    volumes:
+      - ./rabbit-config.json:/tmp/rabbit.definitions.json
